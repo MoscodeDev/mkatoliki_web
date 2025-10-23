@@ -85,6 +85,7 @@ const Home = () => {
             <img
               src={product.image}
               alt={product.name}
+              loading="lazy"
               className="w-full aspect-2/2 object-cover rounded-2xl mb-4"
             />
             <div className="flex justify-between">
