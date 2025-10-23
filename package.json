@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://moscodedev.github.io/mkatoliki_web",
+  "homepage": "https://mkatoliki.buzz",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

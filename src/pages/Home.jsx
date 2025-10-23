@@ -42,13 +42,14 @@ const Home = () => {
   const handleCategory = (e)=>{
     if(e === 'all') {
       setFilteredProducts(products);
+      setShowFilters(false)
       return;
     }
     setFilteredProducts(products.filter(obj => obj.category.toLowerCase().includes(e)));
+    setShowFilters(false)
   }
 
   const category = ['all', ...new Set(products.map((arr) => arr.category.toLowerCase().trim()))];
-  console.log(category);
   useEffect(() => {
     handleFilter();
   }, [search]);
@@ -60,11 +61,13 @@ const Home = () => {
           <TbFilterEdit className="size-6 md:hidden" 
           onClick={handleNav}
           />
-          <div className={`flex  max-md:underline max-md:rounded max-md:gap-3 max-md:flex-col max-md:absolute max-md:backdrop-blur-3xl max-md:p-5 z-50 ${!showFilters?'-left-60':"-left-3"}
+          <div className={`flex  max-md:rounded max-md:gap-3 max-md:flex-col max-md:absolute max-md:backdrop-blur-3xl max-md:p-5 z-50 ${!showFilters?'-left-60':"-left-3"}
           md:w-full md:gap-3 md:flex-wrap
           `}>
-            {category.map((y) => (
-              <span className="md:border md:border-gray-300 md:px-2 md:rounded-3xl hover:bg-gray-100 cursor-pointer md:text-center transition-colors"
+            {category.map((y,z) => (
+              <span 
+              key={z}
+              className="md:border md:border-gray-300 md:px-2 md:rounded-3xl hover:bg-gray-100 cursor-pointer md:text-center transition-colors max-md:px-2 max-md:rounded-3xl "
               onClick={()=> handleCategory(y)}>{y}</span>
             ))}
           </div>

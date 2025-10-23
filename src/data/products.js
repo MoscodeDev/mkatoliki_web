@@ -190,21 +190,21 @@ export default [
      {
     id: 28,
     name: "Coated Ring Rosary",
-    category: "Ring Rosaries",
+    category: "rings",
     price: 150,
     image: "./web_imgs/goldCoatedRingRosaryCircle.jpg"
     },
     {
     id: 29,
     name: "Coated Ring Rosary",
-    category: "Ring Rosaries",
+    category: "rings",
     price: 150,
     image: "./web_imgs/goldCoatedRingRosaryCross.jpg"
     },
     {
     id: 30,
     name: "Coated Ring Rosary",
-    category: "Ring Rosaries",
+    category: "rings",
     price: 150,
     image: "./web_imgs/goldCoatedRingRosaryPlain.jpg"
     },
