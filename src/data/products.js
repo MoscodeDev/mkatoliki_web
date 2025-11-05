@@ -3,13 +3,13 @@ export default [
     id: 1,
     name: "African Bible",
     category: "Books",
-    price: 1500,
+    price: 1800,
     image: "./web_imgs/africanBible.jpg"},
     {
     id: 2,
     name: "African Pocket Bible",
     category: "Books",
-    price: 900,
+    price: 1000,
     image: "./web_imgs/africanBiblePocket.jpg"
     },
     {
@@ -23,7 +23,7 @@ export default [
     id: 4,
     name: "Ammetite Rosary",
     category: "Rosaries",
-    price: 130,
+    price: 150,
     image: "./web_imgs/ammetiteRosarySm.jpg"
     },
     {
@@ -37,7 +37,7 @@ export default [
     id: 6,
     name: "Benedict cross",
     category: "Crucifixes",
-    price: 800,
+    price: 900,
     image: "./web_imgs/benedictMetallicCrossBg.jpg"
     },
     {
@@ -51,7 +51,7 @@ export default [
     id: 8,
     name: "Biblia ya Kiafrika",
     category: "Books",
-    price: 1500,
+    price: 1800,
     image: "./web_imgs/bibliaYaKiafrika.jpg"
     },
     {
@@ -72,7 +72,7 @@ export default [
     id: 11,
     name: "Compedium Catechism",
     category: "Books",
-    price: 1200,
+    price: 1300,
     image: "./web_imgs/catechismCompendium.jpg"
     },
     {
@@ -149,7 +149,7 @@ export default [
     id: 22,
     name: "Collection Of Prayers And Novena",
     category: "Rosaries",
-    price: 1100,
+    price: 1300,
     image: "./web_imgs/collectionOfPrayersAndNovena.jpg"
     },
     {
@@ -163,28 +163,28 @@ export default [
     id: 24,
     name: "Devotion to Divine Mercy",
     category: "Books",
-    price: 130,
+    price: 150,
     image: "./web_imgs/devotionToDivineMercy.jpg"
     },
     {
     id: 25,
     name: "12 Disciples cross",
     category: "Crucifixes",
-    price: 400,
+    price: 500,
     image: "./web_imgs/disciplesCross.jpg"
     },
      {
     id: 26,
     name: "12 Disciples cross",
     category: "Crucifixes",
-    price: 400,
+    price: 500,
     image: "./web_imgs/disciplesCrossBrown.jpg"
     },
      {
     id: 27,
     name: "Divine Mercy Message and Devotion",
     category: "Crucifixes",
-    price: 300,
+    price: 350,
     image: "./web_imgs/divineMercyMessage.jpg"
     },
      {
@@ -198,14 +198,14 @@ export default [
     id: 29,
     name: "Coated Ring Rosary",
     category: "rings",
-    price: 150,
+    price: 200,
     image: "./web_imgs/goldCoatedRingRosaryCross.jpg"
     },
     {
     id: 30,
     name: "Coated Ring Rosary",
     category: "rings",
-    price: 150,
+    price: 200,
     image: "./web_imgs/goldCoatedRingRosaryPlain.jpg"
     },
     {
@@ -240,14 +240,14 @@ export default [
     id: 35,
     name: "Head gear shifon",
     category: "Decor",
-    price: 200,
+    price: 250,
     image: "./web_imgs/HeadGear.jpg"
     },
     {
     id: 36,
     name: "Head gear cotton",
     category: "Decor",
-    price: 300,
+    price: 350,
     image: "./web_imgs/HeadGear.jpg"
     },
     {
@@ -261,35 +261,35 @@ export default [
     id: 38,
     name: "Ibada Kwa Huruma ya Mungu",
     category: "Books",
-    price: 130,
+    price: 150,
     image: "./web_imgs/ibadaKwaHurumaYaMungu.jpg"
     },
     {
     id: 39,
     name: "Immaculate Heart A5",
     category: "potraits",
-    price: 400,
+    price: 500,
     image: "./web_imgs/immaculateA5.jpg"
     },
     {
     id: 40,
     name: "Katekisimu",
     category: "Books",
-    price: 750,
+    price: 800,
     image: "./web_imgs/katekisimuUfupisho.jpg"
     },
     {
     id: 41,
     name: "String Knotted Rosary Blue",
     category: "Rosaries",
-    price: 130,
+    price: 150,
     image: "./web_imgs/knottedRosaryBlue.jpg"
     },
     {
     id: 42,
     name: "String Knotted Rosary Green",
     category: "Rosaries",
-    price: 130,
+    price: 150,
     image: "./web_imgs/knottedRosaryGreen.jpg"
     },
     {
@@ -338,7 +338,7 @@ export default [
     id: 49,
     name: "Maria Mama Yetu",
     category: "Books",
-    price: 130,
+    price: 150,
     image: "./web_imgs/mariaMamaYetu.jpg"
     },
     {
@@ -355,18 +355,18 @@ export default [
     price: 200,
     image: "./web_imgs/maryStatueSm.jpg"
     },
-    {
-    id: 52,
-    name: "Metallic Cross",
-    category: "Crucifixes",
-    price: 1000,
-    image: "./web_imgs/metallicCross.jpg"
-    },
+    // {
+    // id: 52,
+    // name: "Metallic Cross",
+    // category: "Crucifixes",
+    // price: 1000,
+    // image: "./web_imgs/metallicCross.jpg"
+    // },
     {
     id: 53,
     name: "St. Michael A5",
     category: "potraits",
-    price: 400,
+    price: 500,
     image: "./web_imgs/michaelA5.jpg"
     },
     {
@@ -394,7 +394,7 @@ export default [
     id: 57,
     name: "St. Anthony of Padua (Novena)",
     category: "Books",
-    price: 200,
+    price: 250,
     image: "./web_imgs/novenaToAnthonyOfPadua.jpg"
     },
     {
@@ -408,14 +408,14 @@ export default [
     id: 59,
     name: "Plastic Rosary",
     category: "Rosaries",
-    price: 30,
+    price: 50,
     image: "./web_imgs/plasticRosaries1.jpg"
     },
     {
     id: 60,
     name: "Plastic Rosary",
     category: "Rosaries",
-    price: 30,
+    price: 50,
     image: "./web_imgs/plasticRosaries.jpg"
     },
     {
@@ -443,35 +443,35 @@ export default [
     id: 64,
     name: "Precious Blood",
     category: "Books",
-    price: 100,
+    price: 150,
     image: "./web_imgs/preciusBloodPocket.jpg"
     },
     {
     id: 65,
     name: "Question And Answer Catechism",
     category: "Books",
-    price: 300,
+    price: 350,
     image: "./web_imgs/questionAnswerCatechism.jpg"
     },
     {
     id: 66,
     name: "Rita Wa Kashia",
     category: "Books",
-    price: 300,
+    price: 500,
     image: "./web_imgs/ritaWaKashia.jpg"
     },
     {
     id: 67,
     name: "Sala Za Rosari Nne",
     category: "Books",
-    price: 130,
+    price: 150,
     image: "./web_imgs/rozariNne.jpg"
     },
     {
     id: 68,
     name: "Rosari Saba Zenye Nguvu",
     category: "Books",
-    price: 130,
+    price: 150,
     image: "./web_imgs/rozariSaba.jpg"
     },
     {
@@ -625,7 +625,7 @@ export default [
     id: 90,
     name: "The Catechism Of Catholic Church",
     category: "Books",
-    price: 1200,
+    price: 1300,
     image: "./web_imgs/theCatechism.jpg"
     },
     {
